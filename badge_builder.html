@@ -5,12 +5,7 @@
         <p class="warning">You must enter a badge name</p>
     </div>
     <div id="orgname">
-        <label>Organization:</label>
-        <select>
-        {{#each userOrganizations}}
-            <option value="{{ _id }}">{{ name }} ({{ url }})</option>
-        {{/each}}
-        </select>
+        {{> organization_selector }}
         <p class="warning">You must enter an organization</p>
     </div>
     <iframe id="badgedesigner"

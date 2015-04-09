@@ -20,8 +20,6 @@ Template.badge_builder.rendered = ->
 
 
 Template.badge_builder.helpers(
-  userOrganizations: ->
-    organizations.find({})
   origin: ->
     return Meteor.absoluteUrl()
 )
