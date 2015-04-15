@@ -1,6 +1,6 @@
 Package.describe({
   name: 'mbish:badge-builder',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'Rough addition of a badge builder UI from openbadges.me',
   git: 'https://github.com/mbish/badge-builder',
   documentation: 'README.md'
